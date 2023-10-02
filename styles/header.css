@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(230, 230, 230);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+}
+.left-section{
+    background-color: lightpink;
+    display: flex;
+    width: 150px;
+}
+.middle-section{
+    /* background-color: lightblue; */
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 30px;
+    max-width: 500px;
+    justify-content: space-between;
+    vertical-align: middle;
+
+}
+
+.right-section{
+    /* background-color: lightgreen; */
+    width: 300px;
+    display: flex;
+    margin-top: 20px;
+}
+.menu-items{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.whatsapp-img{
+    width: 30px;
+    margin-right: 10px;
+}
+.contact-info{
+    margin-top: 24px;
+    font-size: 20px;
+}
